@@ -9,12 +9,12 @@ package avanzadaii;
  * @author ksalo
  */
 public class AvanzadaII {
-int hola;
+int adios;
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("hola mundo 232");
+        System.out.println("hola honduras");
     }
     
 }
