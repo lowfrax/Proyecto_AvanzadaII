@@ -9,7 +9,7 @@ package Form_Inicio;
  * @author ksalo
  */
 public class inicio extends javax.swing.JFrame {
-double bienvenidos;
+double bienvenid;
     /**
      * Creates new form inicio
      */
