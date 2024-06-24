@@ -9,5 +9,5 @@ package helpers;
  * @author ksalo
  */
 public class prueba {
-    
+    double almacenador;
 }
