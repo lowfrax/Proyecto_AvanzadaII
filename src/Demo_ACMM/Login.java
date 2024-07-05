@@ -69,7 +69,7 @@ public class Login extends javax.swing.JFrame {
 
         jTextField2.setBorder(null);
 
-        jPanel3.setBackground(new java.awt.Color(220, 0, 0));
+        jPanel3.setBackground(new java.awt.Color(195, 0, 0));
 
         jLabel6.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(255, 255, 255));
