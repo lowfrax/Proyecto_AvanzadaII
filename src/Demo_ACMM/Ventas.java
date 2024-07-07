@@ -86,7 +86,7 @@ public class Ventas extends javax.swing.JFrame {
         botClientes1.setBackground(new java.awt.Color(90, 0, 0));
         botClientes1.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
         botClientes1.setForeground(new java.awt.Color(255, 255, 255));
-        botClientes1.setText("G E S T I O N   D E   V E N T A S");
+        botClientes1.setText("A Y U D A");
         botClientes1.setBorder(null);
         botClientes1.setBorderPainted(false);
         botClientes1.setFocusPainted(false);
@@ -103,7 +103,7 @@ public class Ventas extends javax.swing.JFrame {
         botReportes1.setBackground(new java.awt.Color(90, 0, 0));
         botReportes1.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
         botReportes1.setForeground(new java.awt.Color(255, 255, 255));
-        botReportes1.setText("P A N E L   D E   C O N T RO L");
+        botReportes1.setText("A J U S T E S");
         botReportes1.setBorder(null);
         botReportes1.setBorderPainted(false);
         botReportes1.setFocusPainted(false);
