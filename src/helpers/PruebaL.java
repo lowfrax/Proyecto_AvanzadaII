@@ -9,5 +9,5 @@ package helpers;
  * @author ksalo
  */
 public class PruebaL {
-    int nbjhb, jhhoi;
+    int nbjhb, jhhoi, jhou, jbgiuhg;
 }
