@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Demo_ACMM;
+package Vista;
 
 /**
  *
@@ -73,7 +73,6 @@ public class Inventario extends javax.swing.JDialog {
         jlbFondo = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-        setMaximumSize(new java.awt.Dimension(1162, 620));
         setMinimumSize(new java.awt.Dimension(1162, 620));
         setSize(new java.awt.Dimension(1162, 620));
 
@@ -410,7 +409,7 @@ public class Inventario extends javax.swing.JDialog {
         );
 
         jPanel1.add(jPanel5);
-        jPanel5.setBounds(410, 0, 750, 100);
+        jPanel5.setBounds(410, 0, 750, 0);
 
         jlbFondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/Background2.jpg"))); // NOI18N
         jlbFondo.setText("jLabel1");

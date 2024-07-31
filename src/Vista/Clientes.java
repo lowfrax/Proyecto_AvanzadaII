@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Demo_ACMM;
+package Vista;
 
 import java.awt.BorderLayout;
 import javax.swing.*;
@@ -247,7 +247,7 @@ public class Clientes extends javax.swing.JDialog {
         );
 
         jPanel1.add(jPanel4);
-        jPanel4.setBounds(410, 0, 750, 100);
+        jPanel4.setBounds(410, 0, 750, 0);
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));

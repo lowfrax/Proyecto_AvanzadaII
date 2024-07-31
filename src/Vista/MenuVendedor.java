@@ -3,18 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Demo_ACMM;
+package Vista;
 
 /**
  *
  * @author HP
  */
-public class Ventas extends javax.swing.JFrame {
+public class MenuVendedor extends javax.swing.JFrame {
 
     /**
      * Creates new form Menu
      */
-    public Ventas() {
+    public MenuVendedor() {
         initComponents();
     }
 
@@ -29,16 +29,15 @@ public class Ventas extends javax.swing.JFrame {
 
         jPanel1 = new javax.swing.JPanel();
         jPanel4 = new javax.swing.JPanel();
-        botInventario1 = new javax.swing.JButton();
-        botPreCali1 = new javax.swing.JButton();
         botClientes1 = new javax.swing.JButton();
         botReportes1 = new javax.swing.JButton();
+        botReportes = new javax.swing.JButton();
         jLabel7 = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
         botInventario = new javax.swing.JButton();
         botPreCali = new javax.swing.JButton();
         botClientes = new javax.swing.JButton();
-        botReportes = new javax.swing.JButton();
+        jLabel5 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
         jlbUsuario = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
@@ -59,30 +58,6 @@ public class Ventas extends javax.swing.JFrame {
 
         jPanel4.setLayout(null);
 
-        botInventario1.setBackground(new java.awt.Color(90, 0, 0));
-        botInventario1.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        botInventario1.setForeground(new java.awt.Color(255, 255, 255));
-        botInventario1.setText("G E S T I O N E S");
-        botInventario1.setBorder(null);
-        botInventario1.setBorderPainted(false);
-        botInventario1.setFocusPainted(false);
-        botInventario1.setFocusable(false);
-        botInventario1.setRequestFocusEnabled(false);
-        jPanel4.add(botInventario1);
-        botInventario1.setBounds(20, 240, 290, 50);
-
-        botPreCali1.setBackground(new java.awt.Color(90, 0, 0));
-        botPreCali1.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        botPreCali1.setForeground(new java.awt.Color(255, 255, 255));
-        botPreCali1.setText("I N F O R M E S");
-        botPreCali1.setBorder(null);
-        botPreCali1.setBorderPainted(false);
-        botPreCali1.setFocusPainted(false);
-        botPreCali1.setFocusable(false);
-        botPreCali1.setRequestFocusEnabled(false);
-        jPanel4.add(botPreCali1);
-        botPreCali1.setBounds(20, 300, 290, 50);
-
         botClientes1.setBackground(new java.awt.Color(90, 0, 0));
         botClientes1.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
         botClientes1.setForeground(new java.awt.Color(255, 255, 255));
@@ -98,7 +73,7 @@ public class Ventas extends javax.swing.JFrame {
             }
         });
         jPanel4.add(botClientes1);
-        botClientes1.setBounds(20, 360, 290, 50);
+        botClientes1.setBounds(20, 330, 290, 50);
 
         botReportes1.setBackground(new java.awt.Color(90, 0, 0));
         botReportes1.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
@@ -111,6 +86,18 @@ public class Ventas extends javax.swing.JFrame {
         botReportes1.setRequestFocusEnabled(false);
         jPanel4.add(botReportes1);
         botReportes1.setBounds(20, 420, 290, 50);
+
+        botReportes.setBackground(new java.awt.Color(90, 0, 0));
+        botReportes.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        botReportes.setForeground(new java.awt.Color(255, 255, 255));
+        botReportes.setText("R E P O R T E S");
+        botReportes.setBorder(null);
+        botReportes.setBorderPainted(false);
+        botReportes.setFocusPainted(false);
+        botReportes.setFocusable(false);
+        botReportes.setRequestFocusEnabled(false);
+        jPanel4.add(botReportes);
+        botReportes.setBounds(20, 240, 290, 50);
 
         jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/Background2.jpg"))); // NOI18N
         jPanel4.add(jLabel7);
@@ -143,7 +130,7 @@ public class Ventas extends javax.swing.JFrame {
         botPreCali.setFocusable(false);
         botPreCali.setRequestFocusEnabled(false);
         jPanel2.add(botPreCali);
-        botPreCali.setBounds(20, 300, 290, 50);
+        botPreCali.setBounds(20, 330, 290, 50);
 
         botClientes.setBackground(new java.awt.Color(90, 0, 0));
         botClientes.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
@@ -160,19 +147,14 @@ public class Ventas extends javax.swing.JFrame {
             }
         });
         jPanel2.add(botClientes);
-        botClientes.setBounds(20, 360, 290, 50);
+        botClientes.setBounds(20, 420, 290, 50);
 
-        botReportes.setBackground(new java.awt.Color(90, 0, 0));
-        botReportes.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        botReportes.setForeground(new java.awt.Color(255, 255, 255));
-        botReportes.setText("R E P O R T E S");
-        botReportes.setBorder(null);
-        botReportes.setBorderPainted(false);
-        botReportes.setFocusPainted(false);
-        botReportes.setFocusable(false);
-        botReportes.setRequestFocusEnabled(false);
-        jPanel2.add(botReportes);
-        botReportes.setBounds(20, 420, 290, 50);
+        jLabel5.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel5.setText("SECCION VENDEDOR");
+        jPanel2.add(jLabel5);
+        jLabel5.setBounds(10, 60, 310, 40);
 
         jLabel1.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
@@ -273,14 +255,110 @@ public class Ventas extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Ventas.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(MenuVendedor.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Ventas.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(MenuVendedor.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Ventas.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(MenuVendedor.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Ventas.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(MenuVendedor.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
         //</editor-fold>
         //</editor-fold>
         //</editor-fold>
@@ -317,7 +395,7 @@ public class Ventas extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Ventas().setVisible(true);
+                new MenuVendedor().setVisible(true);
             }
         });
     }
@@ -326,9 +404,7 @@ public class Ventas extends javax.swing.JFrame {
     private javax.swing.JButton botClientes;
     private javax.swing.JButton botClientes1;
     private javax.swing.JButton botInventario;
-    private javax.swing.JButton botInventario1;
     private javax.swing.JButton botPreCali;
-    private javax.swing.JButton botPreCali1;
     private javax.swing.JButton botReportes;
     private javax.swing.JButton botReportes1;
     private javax.swing.JButton botSalir;
@@ -336,6 +412,7 @@ public class Ventas extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
