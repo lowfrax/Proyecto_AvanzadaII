@@ -4,9 +4,13 @@
  */
 package avanzadaii;
 
+import Controlador.UsuarioControlador;
+import Modelo.ConsulU;
+import Modelo.UsuarioPOO;
 import Vista.Login;
 import Vista.MenuGerente;
 import Vista.MenuVendedor;
+import Vista.Usuario;
 
 /**
  *
@@ -23,6 +27,11 @@ public class AvanzadaII {
         MenuGerente mGer = new MenuGerente();
         
         MenuVendedor mVen = new MenuVendedor();
+        
+        Usuario vista = new Usuario();
+        UsuarioPOO usuario = new UsuarioPOO();
+        ConsulU consulU = new ConsulU();
+        UsuarioControlador controlador = new UsuarioControlador(usuario, vista, consulU);
         
         form.setVisible(true);
         form.setLocationRelativeTo(null);

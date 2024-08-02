@@ -43,8 +43,8 @@ public class Conexion {
 
     public static  Connection obtenerConnection(){
         String url = "jdbc:mysql://localhost:3306/bd_hexadrive_acmm";
-        String user = "am";
-        String password = "12345";
+        String user = "root";
+        String password = "";
         
         Connection con;
         try {

@@ -5,6 +5,12 @@
  */
 package Vista;
 
+import Controlador.UsuarioControlador;
+import Modelo.ConsulU;
+import Modelo.UsuarioPOO;
+import java.awt.Color;
+import javax.swing.JButton;
+
 /**
  *
  * @author HP
@@ -16,6 +22,10 @@ public class MenuGerente extends javax.swing.JFrame {
      */
     public MenuGerente() {
         initComponents();
+    }
+
+    public JButton getBtnProductos() {
+        return botUsuN;
     }
 
     /**
@@ -30,6 +40,7 @@ public class MenuGerente extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jPanel4 = new javax.swing.JPanel();
         botInventario1 = new javax.swing.JButton();
+        botUsuN = new javax.swing.JButton();
         botPreCali1 = new javax.swing.JButton();
         botClientes1 = new javax.swing.JButton();
         botReportes1 = new javax.swing.JButton();
@@ -70,7 +81,24 @@ public class MenuGerente extends javax.swing.JFrame {
         botInventario1.setFocusable(false);
         botInventario1.setRequestFocusEnabled(false);
         jPanel4.add(botInventario1);
-        botInventario1.setBounds(20, 240, 290, 50);
+        botInventario1.setBounds(20, 180, 290, 50);
+
+        botUsuN.setBackground(new java.awt.Color(90, 0, 0));
+        botUsuN.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        botUsuN.setForeground(new java.awt.Color(255, 255, 255));
+        botUsuN.setText("USUARIO");
+        botUsuN.setBorder(null);
+        botUsuN.setBorderPainted(false);
+        botUsuN.setFocusPainted(false);
+        botUsuN.setFocusable(false);
+        botUsuN.setRequestFocusEnabled(false);
+        botUsuN.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                botUsuNActionPerformed(evt);
+            }
+        });
+        jPanel4.add(botUsuN);
+        botUsuN.setBounds(20, 250, 290, 50);
 
         botPreCali1.setBackground(new java.awt.Color(90, 0, 0));
         botPreCali1.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
@@ -82,7 +110,7 @@ public class MenuGerente extends javax.swing.JFrame {
         botPreCali1.setFocusable(false);
         botPreCali1.setRequestFocusEnabled(false);
         jPanel4.add(botPreCali1);
-        botPreCali1.setBounds(20, 300, 290, 50);
+        botPreCali1.setBounds(20, 320, 290, 50);
 
         botClientes1.setBackground(new java.awt.Color(90, 0, 0));
         botClientes1.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
@@ -99,7 +127,7 @@ public class MenuGerente extends javax.swing.JFrame {
             }
         });
         jPanel4.add(botClientes1);
-        botClientes1.setBounds(20, 360, 290, 50);
+        botClientes1.setBounds(20, 390, 290, 50);
 
         botReportes1.setBackground(new java.awt.Color(90, 0, 0));
         botReportes1.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
@@ -111,7 +139,7 @@ public class MenuGerente extends javax.swing.JFrame {
         botReportes1.setFocusable(false);
         botReportes1.setRequestFocusEnabled(false);
         jPanel4.add(botReportes1);
-        botReportes1.setBounds(20, 420, 290, 50);
+        botReportes1.setBounds(20, 460, 290, 50);
 
         jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/Background2.jpg"))); // NOI18N
         jPanel4.add(jLabel7);
@@ -264,6 +292,17 @@ public class MenuGerente extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_botClientes1ActionPerformed
 
+    private void botUsuNActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botUsuNActionPerformed
+        botUsuN.setBackground(Color.cyan);
+        UsuarioPOO usuario = new UsuarioPOO();
+        Usuario vista = new Usuario();
+        ConsulU consulU = new ConsulU();
+        UsuarioControlador controlador = new UsuarioControlador(usuario, vista, consulU);
+
+        vista.setVisible(true);
+
+    }//GEN-LAST:event_botUsuNActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -372,6 +411,7 @@ public class MenuGerente extends javax.swing.JFrame {
     private javax.swing.JButton botReportes;
     private javax.swing.JButton botReportes1;
     private javax.swing.JButton botSalir;
+    private javax.swing.JButton botUsuN;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
