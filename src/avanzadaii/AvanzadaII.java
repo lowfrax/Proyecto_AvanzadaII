@@ -41,7 +41,7 @@ public class AvanzadaII {
 
     }
 
-    public void accesoVendedor(String user) {
+    public void accesoGerente(String user) {
        // MenuVendedor mVen = new MenuVendedor(user);
         MenuGerente mGen = new MenuGerente();
         inventarioPOO invPOO = new inventarioPOO();
@@ -56,15 +56,19 @@ public class AvanzadaII {
 
         prinVen.iniciar();
         mGen.setVisible(true);
-        
-        
-        
-        
-        
+       
 
     }
 
-    public void accesoGerente() {
+    public void accesoVendedor(String user) {
+        
+        MenuVendedor mVen = new MenuVendedor(user);
+         MenuGerente mGen = new MenuGerente();
+        Gestiones ges = new Gestiones(mVen, true, user);
+
+         principalControlador prinVen = new principalControlador(mGen, ges);
+          prinVen.iniciar();
+        mVen.setVisible(true);
 
     }
 

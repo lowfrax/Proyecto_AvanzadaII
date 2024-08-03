@@ -2,29 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/C:/Users/ksalo/Downloads/nueva/Proyecto_AvanzadaII-7cf52350aa00b1c346cb2c2037f2e7ecbb883933/src/Modelo/ConsulU.java</file>
-            <file>file:/C:/Users/ksalo/Downloads/nueva/Proyecto_AvanzadaII-7cf52350aa00b1c346cb2c2037f2e7ecbb883933/src/Form_Inicio/inicio.java</file>
-            <file>file:/C:/Users/ksalo/Downloads/nueva/Proyecto_AvanzadaII-7cf52350aa00b1c346cb2c2037f2e7ecbb883933/src/Modelo/ConsultaInventario.java</file>
-            <file>file:/C:/Users/ksalo/Downloads/nueva/Proyecto_AvanzadaII-7cf52350aa00b1c346cb2c2037f2e7ecbb883933/src/Controlador/UsuarioControlador.java</file>
-            <file>file:/C:/Users/ksalo/Downloads/nueva/Proyecto_AvanzadaII-7cf52350aa00b1c346cb2c2037f2e7ecbb883933/src/Vista/PreCalificacion.java</file>
-            <file>file:/C:/Users/ksalo/Downloads/nueva/Proyecto_AvanzadaII-7cf52350aa00b1c346cb2c2037f2e7ecbb883933/src/avanzadaii/AvanzadaII.java</file>
-            <file>file:/C:/Users/ksalo/Downloads/nueva/Proyecto_AvanzadaII-7cf52350aa00b1c346cb2c2037f2e7ecbb883933/src/Vista/Clientes.java</file>
-            <file>file:/C:/Users/ksalo/Downloads/nueva/Proyecto_AvanzadaII-7cf52350aa00b1c346cb2c2037f2e7ecbb883933/src/Vista/MenuGerente.java</file>
-            <file>file:/C:/Users/ksalo/Downloads/nueva/Proyecto_AvanzadaII-7cf52350aa00b1c346cb2c2037f2e7ecbb883933/src/Vista/Usuario.java</file>
-            <file>file:/C:/Users/ksalo/Downloads/nueva/Proyecto_AvanzadaII-7cf52350aa00b1c346cb2c2037f2e7ecbb883933/src/Controlador/MenuControlador.java</file>
-            <file>file:/C:/Users/ksalo/Downloads/nueva/Proyecto_AvanzadaII-7cf52350aa00b1c346cb2c2037f2e7ecbb883933/src/Vista/Reportes.java</file>
-            <file>file:/C:/Users/ksalo/Downloads/nueva/Proyecto_AvanzadaII-7cf52350aa00b1c346cb2c2037f2e7ecbb883933/src/Modelo/ConsultasBD.java</file>
-            <file>file:/C:/Users/ksalo/Downloads/nueva/Proyecto_AvanzadaII-7cf52350aa00b1c346cb2c2037f2e7ecbb883933/src/Modelo/UsuarioPOO.java</file>
-            <file>file:/C:/Users/ksalo/Downloads/nueva/Proyecto_AvanzadaII-7cf52350aa00b1c346cb2c2037f2e7ecbb883933/src/Vista/MenuVendedor.java</file>
-            <file>file:/C:/Users/ksalo/Downloads/nueva/Proyecto_AvanzadaII-7cf52350aa00b1c346cb2c2037f2e7ecbb883933/src/Vista/Login.java</file>
-            <file>file:/C:/Users/ksalo/Downloads/nueva/Proyecto_AvanzadaII-7cf52350aa00b1c346cb2c2037f2e7ecbb883933/src/Controlador/principalControlador.java</file>
-            <file>file:/C:/Users/ksalo/Downloads/nueva/Proyecto_AvanzadaII-7cf52350aa00b1c346cb2c2037f2e7ecbb883933/src/Vista/Ajustes.java</file>
-            <file>file:/C:/Users/ksalo/Downloads/nueva/Proyecto_AvanzadaII-7cf52350aa00b1c346cb2c2037f2e7ecbb883933/src/Controlador/controladorInventario.java</file>
-            <file>file:/C:/Users/ksalo/Downloads/nueva/Proyecto_AvanzadaII-7cf52350aa00b1c346cb2c2037f2e7ecbb883933/src/Vista/Inventario.java</file>
-            <file>file:/C:/Users/ksalo/Downloads/nueva/Proyecto_AvanzadaII-7cf52350aa00b1c346cb2c2037f2e7ecbb883933/src/Vista/Gestiones.java</file>
-            <file>file:/C:/Users/ksalo/Downloads/nueva/Proyecto_AvanzadaII-7cf52350aa00b1c346cb2c2037f2e7ecbb883933/src/Modelo/Conexion.java</file>
-            <file>file:/C:/Users/ksalo/Downloads/nueva/Proyecto_AvanzadaII-7cf52350aa00b1c346cb2c2037f2e7ecbb883933/src/Vista/Ayuda.java</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>

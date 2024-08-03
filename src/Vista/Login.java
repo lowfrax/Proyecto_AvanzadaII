@@ -176,12 +176,15 @@ public class Login extends javax.swing.JFrame {
 
                 if (pass.equals(p)) {
 
-                    if (rol.equals("vendedor")) {
-
-                    } else if (rol.equals("gerente") || rol.equals("admin")) {
+                    if (rol.equals("vendedor")|| rol.equals("vendedor")) {
                         this.dispose();
                         MenuVendedor menVen = new MenuVendedor(user);
                         AV2.accesoVendedor(user);
+
+                    } else if (rol.equals("gerente") || rol.equals("admin")) {
+                        this.dispose();
+                        MenuGerente menGen = new MenuGerente();
+                        AV2.accesoGerente(user);
                     }
 
                 } else {
