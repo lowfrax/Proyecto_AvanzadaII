@@ -39,11 +39,11 @@ public class MenuGerente extends javax.swing.JFrame {
 
         jPanel1 = new javax.swing.JPanel();
         jPanel4 = new javax.swing.JPanel();
-        btn_gestiones = new javax.swing.JButton();
+        botGestiones = new javax.swing.JButton();
         botUsuN = new javax.swing.JButton();
-        botPreCali1 = new javax.swing.JButton();
-        botClientes1 = new javax.swing.JButton();
-        botReportes1 = new javax.swing.JButton();
+        botInformes = new javax.swing.JButton();
+        botAyuda = new javax.swing.JButton();
+        botAjustes = new javax.swing.JButton();
         jLabel7 = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
         botInventario = new javax.swing.JButton();
@@ -71,17 +71,22 @@ public class MenuGerente extends javax.swing.JFrame {
 
         jPanel4.setLayout(null);
 
-        btn_gestiones.setBackground(new java.awt.Color(90, 0, 0));
-        btn_gestiones.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        btn_gestiones.setForeground(new java.awt.Color(255, 255, 255));
-        btn_gestiones.setText("G E S T I O N E S");
-        btn_gestiones.setBorder(null);
-        btn_gestiones.setBorderPainted(false);
-        btn_gestiones.setFocusPainted(false);
-        btn_gestiones.setFocusable(false);
-        btn_gestiones.setRequestFocusEnabled(false);
-        jPanel4.add(btn_gestiones);
-        btn_gestiones.setBounds(20, 180, 290, 50);
+        botGestiones.setBackground(new java.awt.Color(90, 0, 0));
+        botGestiones.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        botGestiones.setForeground(new java.awt.Color(255, 255, 255));
+        botGestiones.setText("G E S T I O N E S");
+        botGestiones.setBorder(null);
+        botGestiones.setBorderPainted(false);
+        botGestiones.setFocusPainted(false);
+        botGestiones.setFocusable(false);
+        botGestiones.setRequestFocusEnabled(false);
+        botGestiones.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                botGestionesActionPerformed(evt);
+            }
+        });
+        jPanel4.add(botGestiones);
+        botGestiones.setBounds(20, 180, 290, 50);
 
         botUsuN.setBackground(new java.awt.Color(90, 0, 0));
         botUsuN.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
@@ -100,46 +105,46 @@ public class MenuGerente extends javax.swing.JFrame {
         jPanel4.add(botUsuN);
         botUsuN.setBounds(20, 250, 290, 50);
 
-        botPreCali1.setBackground(new java.awt.Color(90, 0, 0));
-        botPreCali1.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        botPreCali1.setForeground(new java.awt.Color(255, 255, 255));
-        botPreCali1.setText("I N F O R M E S");
-        botPreCali1.setBorder(null);
-        botPreCali1.setBorderPainted(false);
-        botPreCali1.setFocusPainted(false);
-        botPreCali1.setFocusable(false);
-        botPreCali1.setRequestFocusEnabled(false);
-        jPanel4.add(botPreCali1);
-        botPreCali1.setBounds(20, 320, 290, 50);
+        botInformes.setBackground(new java.awt.Color(90, 0, 0));
+        botInformes.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        botInformes.setForeground(new java.awt.Color(255, 255, 255));
+        botInformes.setText("I N F O R M E S");
+        botInformes.setBorder(null);
+        botInformes.setBorderPainted(false);
+        botInformes.setFocusPainted(false);
+        botInformes.setFocusable(false);
+        botInformes.setRequestFocusEnabled(false);
+        jPanel4.add(botInformes);
+        botInformes.setBounds(20, 320, 290, 50);
 
-        botClientes1.setBackground(new java.awt.Color(90, 0, 0));
-        botClientes1.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        botClientes1.setForeground(new java.awt.Color(255, 255, 255));
-        botClientes1.setText("A Y U D A");
-        botClientes1.setBorder(null);
-        botClientes1.setBorderPainted(false);
-        botClientes1.setFocusPainted(false);
-        botClientes1.setFocusable(false);
-        botClientes1.setRequestFocusEnabled(false);
-        botClientes1.addActionListener(new java.awt.event.ActionListener() {
+        botAyuda.setBackground(new java.awt.Color(90, 0, 0));
+        botAyuda.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        botAyuda.setForeground(new java.awt.Color(255, 255, 255));
+        botAyuda.setText("A Y U D A");
+        botAyuda.setBorder(null);
+        botAyuda.setBorderPainted(false);
+        botAyuda.setFocusPainted(false);
+        botAyuda.setFocusable(false);
+        botAyuda.setRequestFocusEnabled(false);
+        botAyuda.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                botClientes1ActionPerformed(evt);
+                botAyudaActionPerformed(evt);
             }
         });
-        jPanel4.add(botClientes1);
-        botClientes1.setBounds(20, 390, 290, 50);
+        jPanel4.add(botAyuda);
+        botAyuda.setBounds(20, 390, 290, 50);
 
-        botReportes1.setBackground(new java.awt.Color(90, 0, 0));
-        botReportes1.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        botReportes1.setForeground(new java.awt.Color(255, 255, 255));
-        botReportes1.setText("A J U S T E S");
-        botReportes1.setBorder(null);
-        botReportes1.setBorderPainted(false);
-        botReportes1.setFocusPainted(false);
-        botReportes1.setFocusable(false);
-        botReportes1.setRequestFocusEnabled(false);
-        jPanel4.add(botReportes1);
-        botReportes1.setBounds(20, 460, 290, 50);
+        botAjustes.setBackground(new java.awt.Color(90, 0, 0));
+        botAjustes.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        botAjustes.setForeground(new java.awt.Color(255, 255, 255));
+        botAjustes.setText("A J U S T E S");
+        botAjustes.setBorder(null);
+        botAjustes.setBorderPainted(false);
+        botAjustes.setFocusPainted(false);
+        botAjustes.setFocusable(false);
+        botAjustes.setRequestFocusEnabled(false);
+        jPanel4.add(botAjustes);
+        botAjustes.setBounds(20, 460, 290, 50);
 
         jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/Background2.jpg"))); // NOI18N
         jPanel4.add(jLabel7);
@@ -288,9 +293,9 @@ public class MenuGerente extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_botClientesActionPerformed
 
-    private void botClientes1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botClientes1ActionPerformed
+    private void botAyudaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botAyudaActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_botClientes1ActionPerformed
+    }//GEN-LAST:event_botAyudaActionPerformed
 
     private void botUsuNActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botUsuNActionPerformed
         botUsuN.setBackground(Color.cyan);
@@ -302,6 +307,10 @@ public class MenuGerente extends javax.swing.JFrame {
         vista.setVisible(true);
 
     }//GEN-LAST:event_botUsuNActionPerformed
+
+    private void botGestionesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botGestionesActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_botGestionesActionPerformed
 
     /**
      * @param args the command line arguments
@@ -466,16 +475,16 @@ public class MenuGerente extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton botClientes;
-    private javax.swing.JButton botClientes1;
-    private javax.swing.JButton botInventario;
-    private javax.swing.JButton botPreCali;
-    private javax.swing.JButton botPreCali1;
-    private javax.swing.JButton botReportes;
-    private javax.swing.JButton botReportes1;
+    public javax.swing.JButton botAjustes;
+    public javax.swing.JButton botAyuda;
+    public javax.swing.JButton botClientes;
+    public javax.swing.JButton botGestiones;
+    public javax.swing.JButton botInformes;
+    public javax.swing.JButton botInventario;
+    public javax.swing.JButton botPreCali;
+    public javax.swing.JButton botReportes;
     private javax.swing.JButton botSalir;
-    private javax.swing.JButton botUsuN;
-    public javax.swing.JButton btn_gestiones;
+    public javax.swing.JButton botUsuN;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;

@@ -24,7 +24,7 @@ public class principalControlador implements ActionListener {
         this.PrincipalGerente = PrincipalGerente;
         this.formGestiones = formGestiones;
 
-        this.PrincipalGerente.btn_gestiones.addActionListener(this);
+        this.PrincipalGerente.botGestiones.addActionListener(this);
     }
 
     public void iniciar() {
@@ -37,7 +37,7 @@ public class principalControlador implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
 
-        if (e.getSource() == PrincipalGerente.btn_gestiones) {
+        if (e.getSource() == PrincipalGerente.botGestiones) {
             formGestiones.setVisible(true);
             // prin.dispose();
         }
