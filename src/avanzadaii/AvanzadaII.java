@@ -74,12 +74,6 @@ public class AvanzadaII {
         GerenteControlador conGen = new GerenteControlador(mGen,Inv,Pre,Cli,Rep,Ges,Inf,Ayu,Aju);
         
         
-        
-        
-        
-        
-        
-        
         principalControlador prinVen = new principalControlador(mGen, ges);
 
         prinVen.iniciar();
